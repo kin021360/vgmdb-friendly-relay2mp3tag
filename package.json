@@ -1,0 +1,21 @@
+{
+  "name": "vgmdb-friendly-relay2mp3tag",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "nodemon": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kin021360/vgmdb-friendly-relay2mp3tag"
+  },
+  "author": "Nathan Lam",
+  "dependencies": {
+    "@koa/router": "^9.4.0",
+    "axios": "^0.20.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-helmet": "^5.2.0",
+    "koa-logger": "^3.2.1"
+  }
+}

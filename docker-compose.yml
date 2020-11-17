@@ -1,0 +1,9 @@
+version: '2.2'
+services:
+  vgmdb_friendly_relay2mp3tag:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    restart: always
